@@ -1,0 +1,22 @@
+subprojects {
+
+    apply plugin: 'java'
+
+    group 'btester'
+    version '1.0.0'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+       mavenCentral()
+    }
+
+    dependencies {
+        compile "org.springframework:spring-core:4.3.4.RELEASE"
+        compile "org.slf4j:slf4j-api:1.7.10"
+        compile "org.slf4j:slf4j-log4j12:1.7.10"
+        testCompile "junit:junit:4.12"
+    }
+
+}
