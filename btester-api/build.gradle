@@ -1,9 +1,0 @@
-dependencies {
-    compile project(':btester-model')
-
-
-    compile 'commons-dbcp:commons-dbcp:1.4'
-
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.2.RELEASE'
-    compile group: 'org.springframework', name: 'spring-orm', version: '4.3.4.RELEASE'
-}
